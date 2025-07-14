@@ -1,0 +1,75 @@
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " hitesh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+let a = 10;
+let b = 4;
+console.log("a + b = ", a + b)
+console.log("a - b = ", a - b)
+console.log("a / b = ", a / b)
+console.log("a ** b = ", a ** b)
+console.log("a % b = ", a % b)
+console.log("++a = ", ++a)
+console.log("a++ = ", a++)
+console.log("--a = ", --a)
+console.log("a-- = ", a--)
+console.log("a = ", a)
+console.log("a-- = ", a--)
+
+// Assignment Operators 
+let assignment = 1;
+assignment += 5 // same as assignment = assignment + 5
+console.log("a is now = ", a)
+assignment -= 5 // same as assignment = assignment - 5
+console.log("a is now = ", a)
+assignment *= 5 // same as assignment = assignment * 5
+console.log("a is now = ", a)
+assignment /= 5 // same as assignment = assignment / 5
+console.log("a is now = ", a)
+
+// Comparison Operators 
+let comp1 = 6;
+let comp2 = 7;
+console.log("comp1 == comp2 is ", comp1 == comp2)
+console.log("comp1 != comp2 is ", comp1 != comp2)
+console.log("comp1 === comp2 is ", comp1 === comp2)// same value and same type
+console.log("comp1 !== comp2 is ", comp1 !== comp2)// not equal value or not equal type
+console.log("comp1 > comp2 is ", comp1 > comp2)
+
+// Logical Operators
+let x = 5;
+let y = 6;
+console.log(x<y && x==5)
+console.log(x>y || x==5)
+console.log(!false)
+console.log(!true)
