@@ -28,8 +28,10 @@ let Mayur ={
     Age:25,
     Location:"pune",
 }
-console.log(Mayur)
+console.log(Mayur) 
+
  const myFunction = function(){
     console.log("Hello world");
  };
  myFunction();
+ console.table({heroes: typeof heroes, Mayur: typeof Mayur, myFunction:typeof myFunction})
