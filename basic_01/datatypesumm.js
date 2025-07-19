@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
-
+console.table({score :typeof score, scoreValue :typeof scoreValue, isLoggedIn: typeof isLoggedIn, outsideTemp:typeof outsideTemp,id : typeof id, anotherId: typeof anotherId})
 
 
 // Reference (Non primitive)
