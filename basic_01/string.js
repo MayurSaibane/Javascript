@@ -20,8 +20,16 @@ console.log(Gamename.indexOf('s') );
 console.log(Gamename.substring(0,4));// you can declare a new variable to ex: let name2=Gamename.substring(0,4) and print
 // substring do  not have negative number
 console.log(Gamename.slice(-8,4))
-let Game1='     MAyur    aa ssss    ';
+let Game1='     MAyur  aa  ssss    ';
 console.log(Game1.trim()); // Remove spaces from start and end but not touch space inside string
 // to remove space from every where use
+console.log(Game1.replace(/\s+/g, ''));   // "MAyuraassss"
+let URL='MayurSaibane.com/Mayursaibane%20'
+console.log(URL.replace('%','--'));
+console.log(URL.includes('Mayur')); // case sensitive see for small m its flase
+let Game3='Mayur----saibane \\ Be'
+console.log(Game3.split('-',));
+console.log(Game3.split('\\',));
 
-
+// if both in one print then)
+console.log(Game3.split(/[-\\]/));
