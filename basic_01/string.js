@@ -28,7 +28,7 @@ let URL='MayurSaibane.com/Mayursaibane%20'
 console.log(URL.replace('%','--'));
 console.log(URL.includes('Mayur')); // case sensitive see for small m its flase
 let Game3='Mayur----saibane \\ Be'
-console.log(Game3.split('-',));
+console.log(Game3.split('-',)); // splits and create array
 console.log(Game3.split('\\',));
 
 // if both in one print then)
