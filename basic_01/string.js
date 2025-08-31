@@ -6,7 +6,7 @@ let age=24;
 console.log(`The name of the memeber is ${Name} and age group is ${age}`)
 // Backstiks or string interpolation  it create place holders where varibale is directlyinjected init
  // string declaration new method
- let Gamename=new String('Mayurrrs'); //This creates a String object, not a primitive string.
+ let Gamename=new String('Mayurrrrs'); //This creates a String object, not a primitive string.
  //console.log(typeof gameName);  // "object" (not "string"!)
 /*let str1 = "hello";
 let str2 = new String("hello");
@@ -17,6 +17,11 @@ console.log(Gamename.length);
 console.log(Gamename.toUpperCase);
 console.log(Gamename.charAt(3));
 console.log(Gamename.indexOf('s') );
-
+console.log(Gamename.substring(0,4));// you can declare a new variable to ex: let name2=Gamename.substring(0,4) and print
+// substring do  not have negative number
+console.log(Gamename.slice(-8,4))
+let Game1='     MAyur    aa ssss    ';
+console.log(Game1.trim()); // Remove spaces from start and end but not touch space inside string
+// to remove space from every where use
 
 
