@@ -63,6 +63,15 @@ console.log("hello".padStart(3, "*")); // "hello" (unchanged)
  Default Behavior (if padString not given)
 console.log("5".padStart(3)); // "  5" (pads with spaces by default)
 console.log("5".padEnd(3));   // "5  " 
+
+notes for string =mayur
+console.log(str.substring(3)); // "ur"
+let str = "Mayur";
+
+console.log(str.slice(0, 3)); // "May"
+console.log(str.slice(3));    // "ur"
+console.log(str.slice(-2));   // "ur" (last 2 chars)
+
  
  
  
