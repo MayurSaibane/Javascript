@@ -33,3 +33,4 @@ console.log(Game3.split('\\',));
 
 // if both in one print then)
 console.log(Game3.split(/[-\\]/));
+
