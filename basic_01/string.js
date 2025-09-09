@@ -33,4 +33,41 @@ console.log(Game3.split('\\',));
 
 // if both in one print then)
 console.log(Game3.split(/[-\\]/));
+ /*Extra notes on string
+ /s=replace number, /d replace digit /g global  /Sreplaces everything except spaces \D → replaces everything except digits
+ .search let str = "abc123xyz";
+console.log(str.search(/\d+/)); // 3 (position of first number)
+.match let str = "abc123xyz456";
+console.log(str.match(/\d+/));   // ["123"] (first match only)
+console.log(str.match(/\d+/g));  // ["123", "456"] (all matches with "g" flag)
+#comparison (a<b)True b comes before a (a>A)a=97 A=67 str1.localeCompare(str2, [locales], [options])
+-1 → str1 comes before str2
+0 → equal 1 → str1 comes after str2
+##padding -Padding means adding extra characters to the start or end of a string until it reaches a desired length.
+Useful for things like:
+padStart(targetLength, padString)
+let num = "7";
+console.log(num.padStart(3, "0")); // "007"
+(b) padEnd(targetLength, padString)
+ let str = "Hi";
+console.log(str.padEnd(5, "!")); // "Hi!!!"
+ex
+let name = "Mayur";
+let score = "95";
+console.log(name.padEnd(10, " ") + score.padStart(3, " "));
+// "Mayur     95"
+Notes
+If the string is already longer than targetLength, nothing changes
+console.log("hello".padStart(3, "*")); // "hello" (unchanged)
 
+ Default Behavior (if padString not given)
+console.log("5".padStart(3)); // "  5" (pads with spaces by default)
+console.log("5".padEnd(3));   // "5  " 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */
